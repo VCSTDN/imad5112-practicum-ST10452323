@@ -1,4 +1,4 @@
-# **Tamagotchi App**
+# **The Weather App**
 
 ## **Written by Gaia Kipling**
 
