@@ -6,4 +6,360 @@
     android:layout_height="match_parent"
     tools:context=".DetailedView">
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="109dp"
+        android:layout_height="108dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/theweatherapplogo" />
+
+    <TextView
+        android:id="@+id/textviewAppName3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="56dp"
+        android:fontFamily="sans-serif-black"
+        android:text="The Weather App"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textviewDay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Day"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/textviewMonday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        android:text="Monday"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textviewDay" />
+
+    <TextView
+        android:id="@+id/textviewTuesday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        android:text="Tuesday"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textviewMonday" />
+
+    <TextView
+        android:id="@+id/textviewWednesday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        android:text="Wednesday"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textviewTuesday" />
+
+    <TextView
+        android:id="@+id/textviewThursday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        android:text="Thursday"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textviewWednesday" />
+
+    <TextView
+        android:id="@+id/textviewFriday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        android:text="Friday"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textviewThursday" />
+
+    <TextView
+        android:id="@+id/textviewSaturday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        android:text="Saturday"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textviewFriday" />
+
+    <TextView
+        android:id="@+id/textviewSunday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        android:text="Sunday"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textviewSaturday" />
+
+    <TextView
+        android:id="@+id/textviewMin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Min"
+        app:layout_constraintStart_toEndOf="@+id/textviewWednesday"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:text="12"
+        app:layout_constraintStart_toEndOf="@+id/textviewWednesday"
+        app:layout_constraintTop_toBottomOf="@+id/textviewMin" />
+
+    <TextView
+        android:id="@+id/textviewMinTues"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:text="15"
+        app:layout_constraintStart_toEndOf="@+id/textviewWednesday"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <TextView
+        android:id="@+id/textviewMinWed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:text="13"
+        app:layout_constraintStart_toEndOf="@+id/textviewWednesday"
+        app:layout_constraintTop_toBottomOf="@+id/textviewMinTues" />
+
+    <TextView
+        android:id="@+id/textviewMinThurs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:text="12"
+        app:layout_constraintStart_toEndOf="@+id/textviewWednesday"
+        app:layout_constraintTop_toBottomOf="@+id/textviewMinWed" />
+
+    <TextView
+        android:id="@+id/textviewMinFri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:text="11"
+        app:layout_constraintStart_toEndOf="@+id/textviewWednesday"
+        app:layout_constraintTop_toBottomOf="@+id/textviewMinThurs" />
+
+    <TextView
+        android:id="@+id/textviewMinSat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:text="10"
+        app:layout_constraintStart_toEndOf="@+id/textviewWednesday"
+        app:layout_constraintTop_toBottomOf="@+id/textviewMinFri" />
+
+    <TextView
+        android:id="@+id/textviewMinSun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:text="10"
+        app:layout_constraintStart_toEndOf="@+id/textviewWednesday"
+        app:layout_constraintTop_toBottomOf="@+id/textviewMinSat" />
+
+    <TextView
+        android:id="@+id/textviewMax"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Max"
+        app:layout_constraintStart_toEndOf="@+id/textviewMin"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/textviewMaxMon"
+        android:layout_width="16dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:text="25"
+        app:layout_constraintStart_toEndOf="@+id/textviewMin"
+        app:layout_constraintTop_toBottomOf="@+id/textviewMax" />
+
+    <TextView
+        android:id="@+id/textviewMaxTues"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:text="29"
+        app:layout_constraintStart_toEndOf="@+id/textviewMin"
+        app:layout_constraintTop_toBottomOf="@+id/textviewMaxMon" />
+
+    <TextView
+        android:id="@+id/textviewMaxWed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:text="27"
+        app:layout_constraintStart_toEndOf="@+id/textviewMin"
+        app:layout_constraintTop_toBottomOf="@+id/textviewMaxTues" />
+
+    <TextView
+        android:id="@+id/textviewMaxThurs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:text="26"
+        app:layout_constraintStart_toEndOf="@+id/textviewMin"
+        app:layout_constraintTop_toBottomOf="@+id/textviewMaxWed" />
+
+    <TextView
+        android:id="@+id/textviewMaxFri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:text="23"
+        app:layout_constraintStart_toEndOf="@+id/textviewMin"
+        app:layout_constraintTop_toBottomOf="@+id/textviewMaxThurs" />
+
+    <TextView
+        android:id="@+id/textviewMaxSat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:text="18"
+        app:layout_constraintStart_toEndOf="@+id/textviewMin"
+        app:layout_constraintTop_toBottomOf="@+id/textviewMaxFri" />
+
+    <TextView
+        android:id="@+id/textviewMaxSun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:text="16"
+        app:layout_constraintStart_toEndOf="@+id/textviewMin"
+        app:layout_constraintTop_toBottomOf="@+id/textviewMaxSat" />
+
+    <Button
+        android:id="@+id/buttonMainScreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="185dp"
+        android:text="Main Screen"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textviewCon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Weather Condition"
+        app:layout_constraintStart_toEndOf="@+id/textviewMax"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/textviewConMon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:text="Sunny"
+        app:layout_constraintStart_toEndOf="@+id/textviewMax"
+        app:layout_constraintTop_toBottomOf="@+id/textviewCon" />
+
+    <TextView
+        android:id="@+id/textviewConTues"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:text="Sunny"
+        app:layout_constraintStart_toEndOf="@+id/textviewMax"
+        app:layout_constraintTop_toBottomOf="@+id/textviewConMon" />
+
+    <TextView
+        android:id="@+id/textviewConWed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:text="Sunny"
+        app:layout_constraintStart_toEndOf="@+id/textviewMax"
+        app:layout_constraintTop_toBottomOf="@+id/textviewConTues" />
+
+    <TextView
+        android:id="@+id/textviewConThurs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:text="Sunny"
+        app:layout_constraintStart_toEndOf="@+id/textviewMax"
+        app:layout_constraintTop_toBottomOf="@+id/textviewConWed" />
+
+    <TextView
+        android:id="@+id/textviewConFri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:text="Raining"
+        app:layout_constraintStart_toEndOf="@+id/textviewMax"
+        app:layout_constraintTop_toBottomOf="@+id/textviewConThurs" />
+
+    <TextView
+        android:id="@+id/textviewConSat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:text="Raining"
+        app:layout_constraintStart_toEndOf="@+id/textviewMax"
+        app:layout_constraintTop_toBottomOf="@+id/textviewConFri" />
+
+    <TextView
+        android:id="@+id/textviewConSun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:text="Cold"
+        app:layout_constraintStart_toEndOf="@+id/textviewMax"
+        app:layout_constraintTop_toBottomOf="@+id/textviewConSat" />
 </androidx.constraintlayout.widget.ConstraintLayout>
