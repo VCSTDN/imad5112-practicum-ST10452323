@@ -93,14 +93,4 @@
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/theweatherappimage" />
 
-    <Button
-        android:id="@+id/buttonCalculate"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="67dp"
-        android:text="Calculate"
-        app:layout_constraintStart_toEndOf="@+id/textviewAverageDisplay"
-        app:layout_constraintTop_toBottomOf="@+id/textviewAppName2" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>

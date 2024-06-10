@@ -34,11 +34,9 @@ class MainScreen : AppCompatActivity() {
             textviewAverageDisplay.text = ""
         }
 
-        buttonCalculate.setOnClickListener {
             fun main() {
                 val numbers = listOf(12, 15, 13, 12, 11, 10, 10, 25, 29, 27, 26, 23, 18, 16)
                 return
             }
-        }
     }
 }
